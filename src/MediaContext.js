@@ -34,7 +34,7 @@ export function MediaContextProvider(props) {
             else {
                 setRestAfterSearch(restaurants)
             }
-            window.scrollBy(0, 1000);
+            window.scrollBy(0, document.body.scrollHeight);
         }
 
     }
@@ -60,7 +60,7 @@ export function MediaContextProvider(props) {
             else {
                 setRestAfterSearch(restaurants)
             }
-            window.scrollBy(0, 500);
+            window.scrollBy(0,  document.body.scrollHeight);
         }
 
     }
