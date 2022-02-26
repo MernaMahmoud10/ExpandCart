@@ -1,0 +1,77 @@
+/*title of restaurant*/
+.restTitle {
+    border-bottom: 1px solid #c9c9c9;
+
+}
+
+.tagSpan
+{
+    font-weight: 700;
+    font-weight: 0.8;
+    margin-right: 10px;
+    
+}
+
+/* order now span */
+.green
+{
+    color: green;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.green i{
+    color: green;
+    margin-right:5px;
+    font-size: 0.5rem;
+}
+/* end of title style */
+
+/* style of item */
+
+
+.items {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px grey;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.itemTitle  
+{
+    font-weight: 500;
+}
+.items:hover .itemTitle
+{
+    color:rgb(6 87 153) !important;
+}
+.itemPrice
+{
+    font-weight: 500;
+   color:rgb(6 87 153)
+}
+
+/* end of style of Item */
+
+/* branches */
+
+.branches {
+    border-left: 1px solid #c9c9c9;
+
+}
+
+.branches i{
+    color: rgb(117, 115, 115);
+}
+.branchesContent {
+    display: flex;
+    flex-direction: row-reverse;
+    direction: rtl;
+    cursor: pointer;
+
+}
+/* end of branches style */
