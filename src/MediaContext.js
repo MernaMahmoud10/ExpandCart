@@ -38,7 +38,7 @@ export function MediaContextProvider(props) {
         }
 
     }
-
+///comment
     function searchByTag(e) {
         let clickedTag = e.target.innerHTML
         let ArrayOfRestAfterTag = []
